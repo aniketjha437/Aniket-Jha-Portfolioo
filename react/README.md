@@ -1,12 +1,79 @@
-# React + Vite
+# 💼 Aniket Jha's Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to my personal developer portfolio — built with **Vite + React**, styled for a modern look, and deployed on **Vercel**.
 
-Currently, two official plugins are available:
+🔗 **Live Site**: [https://aniket-jha-portfolioo.vercel.app](https://aniket-jha-portfolioo.vercel.app)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 📸 Preview
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+![Portfolio Screenshot](public/img-copy.png)
+
+---
+
+## 📂 Project Structure
+
+react/
+├── public/
+│ ├── img-copy.png
+│ ├── Aniket-Jha-Resume.pdf
+│ └── other assets...
+├── src/
+│ ├── assets/
+│ ├── components/
+│ │ ├── Navbar.jsx
+│ │ ├── Hero.jsx
+│ │ ├── Footer.jsx
+│ │ └── ProgressBar.jsx
+│ ├── Pages/
+│ │ ├── Home.jsx
+│ │ ├── About.jsx
+│ │ ├── Skill.jsx
+│ │ ├── Project.jsx
+│ │ └── Contact.jsx
+│ ├── App.jsx
+│ ├── main.jsx
+│ └── index.css
+├── .gitignore
+├── package.json
+├── vite.config.js
+└── README.md
+
+
+
+
+---
+
+## 🛠️ Tech Stack
+
+- **Frontend**: React + Vite
+- **Styling**: CSS / Tailwind (if added)
+- **Animations**: Lottie
+- **Version Control**: Git + GitHub
+- **Deployment**: Vercel
+
+---
+
+## 🚀 Getting Started
+
+### 1. Clone the Repository
+
+```
+git clone https://github.com/aniketjha437/Aniket-Jha-Portfolioo.git
+cd Aniket-Jha-Portfolioo/react
+
+
+### Install Dependencies
+```
+### 2. Start the Development Server
+
+```
+npm run dev
+
+
+
+
+🌐 Deployment (Vercel)
+This portfolio is live at:
+🔗 https://aniket-jha-portfolioo.vercel.app
