@@ -123,26 +123,46 @@ const Navbar = () => {
 
         {/* Mobile menu */}
         {visible && (
-          <div className="sm:hidden absolute top-14 right-4 bg-white p-5 rounded shadow-md flex flex-col gap-4 z-50">
-            <div className="flex justify-end">
+          <div className="sm:hidden absolute top-14 right-4 text-black bg-blue-300 p-5 rounded shadow-md flex flex-col gap-4 z-50 ">
+            <div className="flex justify-end hover:text-red-700">
               <CloseIcon
                 className="cursor-pointer"
                 onClick={() => setVisible(false)}
               />
             </div>
-            <NavLink onClick={() => setVisible(false)} to="/">
+            <NavLink
+              onClick={() => setVisible(false)}
+              to="/"
+              className="hover:bg-yellow-300 px-2 py-1 rounded"
+            >
               Home
             </NavLink>
-            <NavLink onClick={() => setVisible(false)} to="/about">
+            <NavLink
+              onClick={() => setVisible(false)}
+              to="/about"
+              className="hover:bg-yellow-300 px-2 py-1 rounded"
+            >
               About
             </NavLink>
-            <NavLink onClick={() => setVisible(false)} to="/skill">
+            <NavLink
+              onClick={() => setVisible(false)}
+              to="/skill"
+              className="hover:bg-yellow-300 px-2 py-1 rounded"
+            >
               Skills
             </NavLink>
-            <NavLink onClick={() => setVisible(false)} to="/portfolio">
-              Portfolio
+            <NavLink
+              onClick={() => setVisible(false)}
+              to="/project"
+              className="hover:bg-yellow-300 px-2 py-1 rounded"
+            >
+              Projects
             </NavLink>
-            <NavLink onClick={() => setVisible(false)} to="/contact">
+            <NavLink
+              onClick={() => setVisible(false)}
+              to="/contact"
+              className="hover:bg-yellow-300 px-2 py-1 rounded"
+            >
               Contact
             </NavLink>
           </div>
